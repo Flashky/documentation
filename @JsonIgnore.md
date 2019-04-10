@@ -3,8 +3,24 @@
 public Car {
 
   @JsonIgnore
-  private String currentSpeed;
-  private String maxSpeed;
+  private Integer currentSpeed;
+  private Integer maxSpeed;
+  
+  public Integer getCurrentSpeed() {
+    return currentSpeed;
+  }
+  
+  public void setCurrentSpeed(Integer currentSpeed) {
+    this.currentSpeed = currentSpeed;
+  }
+  
+  public Integer getMaxSpeed() {
+    return maxSpeed;
+  }
+  
+  public void setMaxSpeed(Integer maxSpeed) {
+    this.maxSpeed = maxSpeed;
+  }
   
   @Override
   public String toString() {
