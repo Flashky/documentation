@@ -24,7 +24,7 @@ Para versiones anteriores a Java 8:
     <groupId>org.mapstruct</groupId>
     <artifactId>mapstruct</artifactId>
     <version>${org.mapstruct.version}</version> 
-</dependency
+</dependency>
 ```
 
 
