@@ -1,4 +1,4 @@
-##Propiedades
+## Propiedades
 
 En primer lugar, para que Eclipse funcione correctamente es necesario definir esta propiedad:
 ```xml
