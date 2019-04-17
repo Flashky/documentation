@@ -8,6 +8,7 @@ En primer lugar, para que Eclipse funcione correctamente es necesario definir es
 </properties>
 ```
 
+
 ## Dependencias
 En dependencias, para Java 8 o superior:
 ```xml
