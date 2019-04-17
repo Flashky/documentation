@@ -3,7 +3,6 @@
 En primer lugar, para que Eclipse funcione correctamente es necesario definir esta propiedad:
 ```xml
 <properties>
-	<!-- automatically run annotation processors within the incremental compilation -->
 	<m2e.apt.activation>jdt_apt</m2e.apt.activation>
 </properties>
 ```
@@ -16,10 +15,10 @@ En dependencias, para Java 8 o superior:
     <groupId>org.mapstruct</groupId>
     <artifactId>mapstruct-jdk8</artifactId>
     <version>${org.mapstruct.version}</version> 
-</dependency
+</dependency>
 ```
 
-Para versiones anteriores a Java 8
+Para versiones anteriores a Java 8:
 ```xml
 <dependency>
     <groupId>org.mapstruct</groupId>
