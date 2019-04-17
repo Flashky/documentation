@@ -8,7 +8,7 @@ En primer lugar, para que Eclipse funcione correctamente es necesario definir es
 	</properties>
 ```
 
-##Dependencias
+## Dependencias
 En dependencias, para Java 8 o superior:
 ```xml
 <dependency>
@@ -27,7 +27,7 @@ Para versiones anteriores a Java 8
 </dependency
 ```
 
-##Plugins
+## Plugins
 
 Independientemente de artifactId usado para mapstruct, añadir lo siguiente:
 ```xml
