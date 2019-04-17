@@ -2,10 +2,10 @@
 
 En primer lugar, para que Eclipse funcione correctamente es necesario definir esta propiedad:
 ```xml
-	<properties>
-  		<!-- automatically run annotation processors within the incremental compilation -->
-  		<m2e.apt.activation>jdt_apt</m2e.apt.activation>
-	</properties>
+<properties>
+	<!-- automatically run annotation processors within the incremental compilation -->
+	<m2e.apt.activation>jdt_apt</m2e.apt.activation>
+</properties>
 ```
 
 ## Dependencias
